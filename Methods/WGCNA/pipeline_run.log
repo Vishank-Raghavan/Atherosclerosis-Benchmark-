@@ -1,0 +1,23 @@
+===============================================================================
+WGCNA NETWORK-BASED ANALYSIS PIPELINE
+Atherosclerosis Benchmark Framework
+===============================================================================
+
+✓ Prerequisites checked
+
+===============================================================================
+STEP 1/4: Data Preparation
+===============================================================================
+  - Aggregating transcripts to gene level
+  - Filtering low-expression genes
+  - Normalizing with VST
+
+Loading libraries...
+Error: package or namespace load failed for ‘DESeq2’ in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]):
+ there is no package called ‘XML’
+In addition: Warning messages:
+1: package ‘DESeq2’ was built under R version 4.2.2 
+2: package ‘S4Vectors’ was built under R version 4.2.2 
+3: package ‘GenomicRanges’ was built under R version 4.2.2 
+4: package ‘GenomeInfoDb’ was built under R version 4.2.2 
+Execution halted
