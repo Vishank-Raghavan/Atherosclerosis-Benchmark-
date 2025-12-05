@@ -59,7 +59,7 @@ All methods utilize a standardized, patient-matched multi-omics dataset derived 
 
 ---
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 ### **Software**
 - **R (v4.0+)**
