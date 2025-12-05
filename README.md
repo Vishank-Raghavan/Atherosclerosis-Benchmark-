@@ -16,12 +16,14 @@ The codebase is organized by method complexity and data type.
 
 ```text
 .
+├── Benchmark/                  # Single-Omic Signal Recovery & Validation
+│
 ├── Data/                       # Shared Patient-Matched Multi-Omics Input Data
 │   ├── DNA/                    # Genotypes (PLINK) & GWAS Summary Statistics
 │   ├── RNA/                    # RNA-seq Counts & TPM Matrices
 │   └── Protein/                # Standardized Proteomics Data
 │
-├── Methods
+├── Methods/
 │   ├── Baseline_Methods/           # Single-Omic Signal Recovery (Quality Control)
 │       ├── DESEQ2/                 # Transcriptomic Baseline (Differential Expression)
 │       ├── LIMMA/                  # Proteomic Baseline (Differential Abundance)
