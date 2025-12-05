@@ -10,7 +10,7 @@ fusion.sh
 
 ## Outputs
 
-- `Results` folder - Raw results obtained from running fusion.sh
+- `Results.zip` folder - Raw results obtained from running fusion.sh
 - `All_results.tsv` - Appended version of all the results from the Results folder
 - `filter_results.R` - Filtered out the targets with a FDR value of less than 0.05
 - `Significant_TWAS_Targets_FRD05.csv` - All the significant targets ranked from the most significant to the least significant 
