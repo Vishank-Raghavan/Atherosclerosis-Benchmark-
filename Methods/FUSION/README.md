@@ -1,9 +1,10 @@
 # FUSION Analysis
-
+A Transcriptome-Wide Association Study (TWAS) using this framework to identify genes whose genetically regulated expression in coronary artery tissue is associated with Coronary Artery Disease.
 
 ## Run
 
 ```bash
+FUSION.assoc_test.R
 fusion.sh
 ```
 
@@ -16,7 +17,7 @@ fusion.sh
 
 ## Method
 
-FUSION builds predictive models of the genetic component of a functional/molecular phenotype and predicts and tests that component for association with disease using GWAS summary statistics.
+This involved harmonizing GWAS summary statistics with GTEx v8 expression weights and the 1000 Genomes LD reference panel to overcome SNP mismatches, followed by executing the association test across all 22 chromosomes. Finally, the results were aggregated to filter for the most significant targets using False Discovery Rate (FDR) correction, creating a high-confidence gene list for benchmark comparison.
 
 Reference: Gusev et al. “Integrative approaches for large-scale transcriptome-wide association studies” 2016 Nature Genetics
 
