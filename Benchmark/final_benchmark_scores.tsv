@@ -1,0 +1,7 @@
+Method	Total Targets	Tier 1 Hits	Tier 2 Hits	Tier 3 Hits	Pathways Hit	TVS	ABS Score
+MAGMA (DNA)	145	1	4	1	2	33	66
+WGCNA (RNA)	86	1	1	0	2	15	30
+DIABLO (Multi)	184	0	1	1	2	8	16
+TWAS (DNA/RNA)	71	0	3	0	1	15	15
+DESeq2 (RNA)	128	0	1	0	1	5	5
+Limma (Protein)	55	0	1	0	1	5	5

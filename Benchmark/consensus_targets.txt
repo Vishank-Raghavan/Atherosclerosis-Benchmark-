@@ -1,0 +1,11 @@
+=== Strict Consensus (All Methods) ===
+
+
+=== Strong Consensus (>= 4 Methods) ===
+
+
+=== Moderate Consensus (>= 3 Methods) ===
+ANXA2
+
+=== Weak/Pairwise Consensus (>= 2 Methods) ===
+ANXA2, AP1B1, BAZ2A, C1QB, CFDP1, CHST3, COL12A1, COL14A1, COL4A1, CSRP1, CTSB, CTSD, DSTN, EVL, FBLN5, FLNA, FRMD8, HPX, JCHAIN, LGMN, MIR100HG, MSN, MTAP, NPC2, PHACTR1, PIK3CD, PSAP, RPL13, RPL6, RPRML, SF3B2, SGK1, TMEM116, TOM1L2, TPD52L2, TRAP1

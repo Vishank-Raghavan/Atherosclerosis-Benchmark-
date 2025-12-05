@@ -1,0 +1,7 @@
+Method	Specific Baseline Used	Specific DTS Size	Specific Recovery (%)	Overall Multi-Omic Recovery (%)
+MAGMA (DNA)	DNA Baseline	145	100.0	45.03
+TWAS (DNA/RNA)	DNA+RNA Baseline	271	2.58	2.17
+DESeq2 (RNA)	RNA Baseline	128	100.0	39.75
+WGCNA (RNA)	RNA Baseline	128	3.12	2.17
+Limma (Protein)	Protein Baseline	55	100.0	17.08
+DIABLO (Multi)	RNA+Protein Baseline	179	6.7	5.28
