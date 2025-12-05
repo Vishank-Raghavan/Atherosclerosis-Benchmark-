@@ -1,10 +1,8 @@
-# Atherosclerosis-Benchmark
-
 # Multi-Omics Atherosclerosis Benchmark Framework
 
 **A Standardized Benchmarking Framework for Evaluating Computational Target Discovery Methods across DNA, RNA, and Protein Levels.**
 
-## 📌 Project Description
+## Project Description
 Atherosclerosis remains a leading global cause of mortality, yet the discovery of clinically actionable therapeutic targets continues to be hindered by the fragmented use of single-omic computational approaches. Existing genomic-, transcriptomic-, and proteomic-level prediction methods often fail to capture cross-modal molecular consistency, resulting in targets with limited translational relevance.
 
 To address this gap, we present a standardized benchmarking framework for evaluating computational target discovery methods. Using publicly accessible, data-matched multi-omics datasets and a curated **3-Tiered Benchmark Key** of validated atherosclerosis targets, we map all method outputs to HGNC gene symbols and assess their performance using the **Atherosclerosis Benchmark Score (ABS)**, dataset signal recovery, and cross-method consensus analysis.
@@ -13,8 +11,7 @@ This repository contains the implementation of both **Baseline Methods** (single
 
 ---
 
-## 📂 Repository Structure
-
+## Repository Structure
 The codebase is organized by method complexity and data type.
 
 ```text
@@ -36,6 +33,7 @@ The codebase is organized by method complexity and data type.
 │   └── WGCNA/                  # Weighted Gene Co-expression Network Analysis (RNA)
 │
 └── README.md
+```
 
 # Pipeline
 
