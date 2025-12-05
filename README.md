@@ -1,2 +1,4 @@
-# Atherosclerosis-Benchmark-
+# Atherosclerosis-Benchmark
+
+## Abstract
 Atherosclerosis remains a leading global cause of mortality, yet the discovery of clinically actionable therapeutic targets continues to be hindered by the fragmented use of single-omic computational approaches. Existing genomic-, transcriptomic-, and proteomic-level prediction methods often fail to capture cross-modal molecular consistency, resulting in targets with limited translational relevance. To address this gap, we present a standardized benchmarking framework for evaluating computational target discovery methods across DNA, RNA, and protein data levels. Using publicly accessible, data-matched multi-omics datasets and a curated 3-Tiered Benchmark Key of validated atherosclerosis targets, we map all method outputs to HGNC gene symbols and assess their performance using the Atherosclerosis Benchmark Score (ABS), dataset signal recovery, and cross-method consensus analysis. [method x] was selected as the best method out of all the methods selected due to these following reasons…
