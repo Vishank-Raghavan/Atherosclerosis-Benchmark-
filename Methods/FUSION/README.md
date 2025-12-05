@@ -1,5 +1,5 @@
 # FUSION Analysis
-A Transcriptome-Wide Association Study (TWAS) using this framework to identify genes whose genetically regulated expression in coronary artery tissue is associated with Coronary Artery Disease.
+This is a Transcriptome-Wide Association Study (TWAS) using the FUSION framework to identify genes whose genetically regulated expression in coronary artery tissue is associated with Coronary Artery Disease.
 
 ## Run
 
