@@ -92,7 +92,7 @@ def load_method_results(filepath, method_name, gene_col='GeneSymbol'):
 # Load all 6 methods
 methods = {
     'MAGMA (DNA)': load_method_results('magma_significant_HGNC.csv', 'MAGMA', gene_col='GeneSymbol'),
-    'TWAS (DNA/RNA)': load_method_results('TWAS_targets_mapped.csv', 'TWAS', gene_col='GeneSymbol'),
+    'TWAS (DNA/RNA)': load_method_results('twas_genes_mapped_filtered.csv', 'TWAS', gene_col='GeneSymbol'),
     'DESeq2 (RNA)': load_method_results('deseq2_HGNC_genes.csv', 'DESeq2', gene_col='Gene'),
     'WGCNA (RNA)': load_method_results('wgcna_significant_genes.csv', 'WGCNA', gene_col='Gene'),
     'Limma (Protein)': load_method_results('limma_suggestive_HGNC.csv', 'Limma', gene_col='GeneSymbol'),
