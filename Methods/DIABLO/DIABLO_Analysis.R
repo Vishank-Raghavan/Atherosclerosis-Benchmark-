@@ -22,16 +22,12 @@ protein_map <- data.frame(
   Group = c(rep("Disease", 5), rep("Control", 10))
 )
 
-# Filter for significant proteins
-limma <- read.csv("../LIMMA/limma_significant_proteins_FDR05.csv", row.names = 1)
-protein_sig <- protein[rownames(limma), ]
-
 # Remove low variance features
-vars <- apply(protein_sig, 1, var, na.rm = TRUE)
-protein_sig <- protein_sig[vars > 0.01 & !is.na(vars), ]
+vars <- apply(protein, 1, var, na.rm = TRUE)
+protein_filtered <- protein[vars > 0.01 & !is.na(vars), ]
 
 # Prepare data
-X <- list(protein = t(protein_sig))
+X <- list(protein = t(protein_filtered))
 Y <- factor(protein_map$Group, levels = c("Control", "Disease"))
 
 # Design matrix
