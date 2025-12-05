@@ -22,15 +22,15 @@ The codebase is organized by method complexity and data type.
 │   └── Protein/                # Standardized Proteomics Data
 │
 ├── Methods
-├── Baseline_Methods/           # Single-Omic Signal Recovery (Quality Control)
-│   ├── DESEQ2/                 # Transcriptomic Baseline (Differential Expression)
-│   ├── LIMMA/                  # Proteomic Baseline (Differential Abundance)
-│   └── MAGMA/                  # Genomic Baseline (Gene-Level GWAS Association)
+│   ├── Baseline_Methods/           # Single-Omic Signal Recovery (Quality Control)
+│       ├── DESEQ2/                 # Transcriptomic Baseline (Differential Expression)
+│       ├── LIMMA/                  # Proteomic Baseline (Differential Abundance)
+│       └── MAGMA/                  # Genomic Baseline (Gene-Level GWAS Association)
 │
-├── Complex_Methods/            # Advanced Target Discovery Pipelines
-│   ├── FUSION_TWAS/            # Transcriptome-Wide Association Study (DNA + RNA)
-│   ├── DIABLO/                 # Supervised Multi-Omics Integration (DNA + RNA + Protein)
-│   └── WGCNA/                  # Weighted Gene Co-expression Network Analysis (RNA)
+│   ├── Complex_Methods/            # Advanced Target Discovery Pipelines
+│       ├── FUSION_TWAS/            # Transcriptome-Wide Association Study (DNA + RNA)
+│       ├── DIABLO/                 # Supervised Multi-Omics Integration (DNA + RNA + Protein)
+│       └── WGCNA/                  # Weighted Gene Co-expression Network Analysis (RNA)
 │
 └── README.md
 ```
@@ -84,10 +84,7 @@ All methods utilize a standardized, patient-matched multi-omics dataset derived 
 
 ## Methods
 
-## I. Baseline Methods (Signal Recovery)
-
-These methods define the **Detectable Target Set (DTS)**—strong, statistically detectable signals used to benchmark complex multi-omics approaches.
-
+## I. Baseline Methods
 ### **DESeq2 (RNA)**
 - **Goal:** Identify differentially expressed genes between symptomatic vs. asymptomatic plaques  
 - **Input:** `rna_seq_counts_matrix.csv`  
@@ -105,7 +102,7 @@ These methods define the **Detectable Target Set (DTS)**—strong, statistically
 
 ---
 
-## II. Complex Methods (Target Discovery)
+## II. Complex Methods
 
 These approaches integrate cross-omic signals and leverage network structure to uncover **novel or subtle molecular targets**.
 
