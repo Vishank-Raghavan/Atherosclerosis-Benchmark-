@@ -58,9 +58,7 @@ These scripts are typically run sequentially to build the input datasets from ra
 
 **Example: Processing RNA-seq Data**
 ```bash
-./sra_to_fastq.sh
-./run_fastp.sh
-./run_salmon.sh
+./quantify_RNA.sh
 python aggregate_counts.py
 ```
 **Example: Processing Proteomics Data**
