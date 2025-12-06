@@ -23,16 +23,13 @@ The codebase is organized by method complexity and data type.
 │   ├── RNA/                    # RNA-seq Counts & TPM Matrices
 │   └── Protein/                # Standardized Proteomics Data
 │
-├── Methods/
-│   ├── Baseline_Methods/           # Single-Omic Signal Recovery (Quality Control)
-│       ├── DESEQ2/                 # Transcriptomic Baseline (Differential Expression)
-│       ├── LIMMA/                  # Proteomic Baseline (Differential Abundance)
-│       └── MAGMA/                  # Genomic Baseline (Gene-Level GWAS Association)
-│
-│   ├── Complex_Methods/            # Advanced Target Discovery Pipelines
-│       ├── FUSION_TWAS/            # Transcriptome-Wide Association Study (DNA + RNA)
-│       ├── DIABLO/                 # Supervised Multi-Omics Integration (DNA + RNA + Protein)
-│       └── WGCNA/                  # Weighted Gene Co-expression Network Analysis (RNA)
+├── Methods/          
+│       ├── DESEQ2/                 # Transcriptomic Baseline (Differential Expression) (Baseline)
+│       ├── LIMMA/                  # Proteomic Baseline (Differential Abundance) (Baseline)
+│       └── MAGMA/                  # Genomic Baseline (Gene-Level GWAS Association) (Baseline) 
+│       ├── FUSION_TWAS/            # Transcriptome-Wide Association Study (DNA + RNA) (Complex)
+│       ├── DIABLO/                 # Supervised Multi-Omics Integration (DNA + RNA + Protein) (Complex)
+│       └── WGCNA/                  # Weighted Gene Co-expression Network Analysis (RNA) (Complex)
 │
 └── README.md
 ```
