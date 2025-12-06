@@ -24,7 +24,7 @@ The script performs differential abundance analysis on a standardized proteomics
 
 ## Files
 
-* **`run_limma_proteomics.R`**: The main R script for data loading, linear modeling, and result extraction.
+* **`LIMMA Analysis.R`**: The main R script for data loading, linear modeling, and result extraction.
 
 ## Input Requirements
 
